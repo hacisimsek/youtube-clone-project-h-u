@@ -1,0 +1,39 @@
+.comment {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 16px 0;
+  /* border-bottom: 1px solid #4c4c4c; */
+
+}
+
+.comment > img {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.comment-area {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.comment-header {
+  font-size: 13px;
+  color: #030303;
+  font-weight: 600;
+}
+
+.user-comment {
+  font-size: 14px;
+}
+
+/* Comment Dark Mode Styles */
+
+.comment-dark {
+  color: #fff;
+}
+
+.comment-header-dark {
+  color: #fff;
+}

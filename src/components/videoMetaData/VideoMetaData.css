@@ -1,0 +1,129 @@
+.videoMetaData {
+  width: 100%;
+  margin-right: 16px;
+  margin-left: 4px;
+}
+
+.videoMetaData-top > h5 {
+    cursor: pointer;
+    color: #030303;
+}
+.videoMetaData-top-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 166px;
+  font-size: 14px;
+}
+
+.videoMetaData-top-stats-icons > span {
+  padding: 8px;
+}
+
+.videoMetaData-channel {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  padding: 16px 0;
+  border-top: 0.2px solid #0000001a;
+  border-bottom: 0.2px solid #0000001a;
+}
+
+.videoMetaData-description {
+  font-size: 14px;
+  margin: 16px 0;
+  white-space: pre-line;
+  border-bottom: 0.2px solid #0000001a;
+  color: #030303;
+}
+
+
+.videoMetaData-channel-details {
+  display: flex;
+  align-items: center;
+}
+
+.videoMetaData-channel-details > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.videoMetaData-channel-details > img {
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.videoMetaData-channel-details-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #030303;
+}
+
+.videoMetaData-channel-subscribed {
+  padding: 16px;
+  margin: 8px 0;
+  margin-right: 16px;
+  border-radius: 2px;
+  line-height: 2px;
+  font-size: 16px;
+  align-items: center;
+  color: #c8ccc9;
+  background-color: gray;
+  border: none;
+}
+
+.videoMetaData-channel-notSubscribed {
+  padding: 16px;
+  margin: 8px 0;
+  margin-right: 16px;
+  border-radius: 2px;
+  line-height: 2px;
+  font-size: 14px;
+  align-items: center;
+  color: #fff;
+  background-color: red;
+  border: none;
+}
+
+.showMoreText {
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  margin: 16px 0;
+  color: #a7a8a8;
+}
+.showMoreText:hover {
+  color: #383838;
+}
+
+
+
+/* Video Meta Data Dark Mode  */
+
+.videoMetaData-dark {
+  color: #fff;
+}
+
+.videoMetaData-top-dark > h5 {
+  color: #fff;
+}
+
+.videoMetaData-description-dark {
+  color: #fff;
+}
+
+
+.videoMetaData-channel-dark {
+  border-top: 0.2px solid #fff;
+  border-bottom: 0.2px solid #fff;
+}
+
+
+.videoMetaData-channel-details-title-dark {
+  color: #fff;
+}
+

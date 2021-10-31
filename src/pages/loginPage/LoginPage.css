@@ -1,0 +1,92 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93939326;
+}
+
+.login-content {
+  width: 480px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 60px 0 rgb(255 0 0 / 35%)
+}
+
+.login-content-img {
+  width: 280px;
+  
+} 
+
+.youtube-image {
+  width: 100%;
+}
+
+.login-button {
+  padding: 16px 24px;
+  background-color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.login-content > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-text {
+  display: flex;
+  align-items: center;
+}
+
+.login-text::before{
+  content: url("../../assets/images/google-ic.svg");
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+
+/* Login Page Dark Mode  */
+
+.login-dark {
+  background-color: #2a0202;
+}
+
+.login-content-dark {
+  background-color: #121212;
+}
+
+.login-button-dark {
+  background-color: #121212;
+  color: #b9b9b9;
+}
+
+.login-button-dark:hover {
+  background-color: #2a0202;
+  box-shadow: #ff000059 0px 4px 16px 4px;
+}
+
+.button-login-dark {
+  background-color: #121212 !important;
+  border-radius: 25px !important;
+}
+
+.button-login-dark:hover {
+  background-color: #2a0202 !important;
+  box-shadow: #ff000059 0px 4px 16px 4px;
+  color: #fff !important;
+}

@@ -1,0 +1,69 @@
+.comments {
+  width: 100%;
+  margin-top: 8px;
+  margin-left: 4px;
+
+}
+
+.comments-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.comments-form > img {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.comments-form > form {
+  flex: 1;
+  display: flex;  
+  flex-wrap: nowrap;
+}
+
+.comments-form > form > input {
+  width: 100%;
+  padding: 10px;
+  margin-left: 8px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #0000001a;
+  color: #080808ec;
+  margin-right: 16px;
+}
+
+.comments-form > form > button {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #0000000d;
+  border: none;
+  border-radius: 2px;
+  color: #909090;
+  padding: 10px;
+}
+
+
+.comments-list {
+  margin-bottom: 32px;
+}
+
+
+/* Comments Dark Mode Styles */
+
+.comments-dark {
+  color: #fff;
+}
+
+.comments-form-dark > form > input {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+
+
+}
+
+.comments-form-dark > form > button {
+  border: 1px solid #fff;
+}

@@ -1,0 +1,56 @@
+.videoHorizontal {
+  display: flex;
+  margin-bottom: 24px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.videoHorizontal-left {
+  height: max-content;
+  position: relative;
+}
+
+.videoHorizontal-left > img {
+  width: 160px;
+  height: 100px;
+}
+
+.videoHorizontal-left > span {
+  background-color: #f9f9f9;
+  padding: 2px 4px;
+  text-align: center;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+
+.videoHorizontal-right {
+  max-width: 280px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.videoHorizontal-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #030303;
+}
+.videoHorizontal-details {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Video Horizontal Dark Mode  */
+
+.videoHorizontal-dark {
+  color: #fff;
+}
+
+.videoHorizontal-title-dark {
+  color: #fff;
+}

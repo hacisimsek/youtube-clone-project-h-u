@@ -1,0 +1,56 @@
+.categories-bar {
+  display: flex;
+  padding: 16px 0;
+  margin-left: 16px;
+  /* font-size: 0.8rem;  Gereksiz */ 
+  overflow-x: scroll;
+  scrollbar-width: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.categories-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.categories-bar > span {
+  margin-right: 16px;
+  padding: 4px 16px;
+  white-space: nowrap;
+  border: 1px solid #c8ccc9;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #121212;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.categories-bar > span:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.categories-bar > span.active {
+  color: #fff;
+  background-color: #121212;
+  border-color: #4c4c4c;
+}
+
+
+/* Categories Bar Dark Mode */
+
+.dark-span {
+  color: #fff !important;
+ }
+ 
+.categories-bar-dark > span.active {
+  color: #000 !important;
+  background-color: rgb(204, 204, 204) !important;
+  border-color: #e6e6e6;
+}
+
+.categories-bar-dark > span:hover {
+  color: #000 !important;
+  background-color: rgb(204, 204, 204) !important;
+  border-color: #e6e6e6;
+}
